@@ -19,6 +19,6 @@
     <remote name="webkit" fetch="https://github.com/Igalia/" />
     <project remote="webkit" path="sources/meta-webkit" name="meta-webkit" revision="dunfell" />
 
-    <remote name="origin" fetch="git@github.com:borisdering/raspberrypi4.git" />
+    <remote name="origin" fetch="git@github.com:borisdering/" />
     <project remote="origin" path="." name="raspberrypi4.git" revision="master" />
 </manifest>
