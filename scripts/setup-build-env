@@ -1,11 +1,12 @@
 #!/bin/bash
 
 CWD=`pwd`
-BUILD_DIR=.
+BUILD_DIR=$CWD/build
+SOURCE_DIR=$CWD/sources
+TEMPLATE_DIR=$CWD/templates
 
-. ./source/poky/oe
+# source oe build env script
+. $SOURCE_DIR/poky/oe-init-build-env
 
-if [ -f $BUILD_DIR/build/conf/local.conf ]; then
-    
-fi
-#. ./source/poky/oe
+# copy bblayers conf to local conf path
+cp $TEMPLATE_DIR/bblayers.conf.sample $BUILD_DIR/conf/bblayers.conf
