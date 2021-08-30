@@ -2,17 +2,21 @@
 <manifest>
     <default sync-j="2" />
 
-    <!-- poky project -->
+    <remote name="origin" fetch="git@github.com:borisdering/raspberrypi4.git" />
+
+    <!-- poky layer -->
     <remote name="poky" fetch="git://git.yoctoproject.org/" />
     <project remote="poky" path="sources/poky" name="poky.git" revision="dunfell" />
 
-    <!-- raspberrypi bsp project -->
+    <!-- webkit layer -->
+    <remote name="webkit" fetch="git@github.com:Igalia" />
+    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit.git" revision="dunfell" />
+
+    <!-- raspberrypi bsp layer -->
     <remote name="raspberrypi" fetch="git://git.yoctoproject.org/" />
     <project remote="raspberrypi" path="sources/meta-raspberrypi" name="meta-raspberrypi" revision="dunfell" />
 
-    <!-- raspberrypi bsp project -->
-    <remote name="webkit" fetch="git@github.com:Igalia" />
-    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit" revision="dunfell" />
+
 
     
 
