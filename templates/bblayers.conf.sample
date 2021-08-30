@@ -6,9 +6,11 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-  ${BSPDIR}/sources/poky/meta \
-  ${BSPDIR}/sources/poky/meta-poky \
-  ${BSPDIR}/sources/poky/meta-yocto-bsp \
-  ${BSPDIR}/sources/meta-raspberrypi \
-  ${BSPDIR}/sources/meta-webkit \
-  ${BSPDIR}/sources/meta-openembedded/meta-oe \
+  ${TOPDIR}/../sources/poky/meta \
+  ${TOPDIR}/../sources/poky/meta-poky \
+  ${TOPDIR}/../sources/poky/meta-yocto-bsp \
+  ${TOPDIR}/../sources/meta-raspberrypi \
+  ${TOPDIR}/../sources/meta-webkit \
+  ${TOPDIR}/../sources/meta-openembedded/meta-oe \
+  ${TOPDIR}/../sources/meta-playground \
+"
