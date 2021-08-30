@@ -11,8 +11,8 @@
     <project remote="raspberrypi" path="sources/meta-raspberrypi" name="meta-raspberrypi" revision="dunfell" />
 
     <!-- raspberrypi bsp project -->
-    <remote name="webkit" fetch="git@github.com:Igalia/" />
-    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit.git" revision="dunfell" />
+    <remote name="webkit" fetch="git@github.com:Igalia" />
+    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit" revision="dunfell" />
 
     
 
