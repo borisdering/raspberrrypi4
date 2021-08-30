@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default sync-j="2" />
+    <default sync-j="2" />
 
-  <!-- poky project -->
-  <remote name="poky" fetch="git://git.yoctoproject.org" />
-  <project remote="poky" path="sources/poky" name="poky.git" revision="dunfell"/>
+    <!-- poky project -->
+    <remote name="poky" fetch="git://git.yoctoproject.org/" />
+    <project remote="poky" path="sources/poky" name="poky.git" revision="dunfell" />
 
+    <!-- raspberrypi bsp project -->
+    <remote name="raspberrypi" fetch="git://git.yoctoproject.org/" />
+    <project remote="raspberrypi" path="sources/meta-raspberrypi" name="meta-raspberrypi" revision="dunfell" />
+
+    <!-- raspberrypi bsp project -->
+    <remote name="webkit" fetch="git@github.com:Igalia/" />
+    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit" revision="dunfell" />
+
+    
 
 </manifest>
