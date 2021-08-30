@@ -8,14 +8,13 @@
     <remote name="poky" fetch="git://git.yoctoproject.org/" />
     <project remote="poky" path="sources/poky" name="poky.git" revision="dunfell" />
 
-    <!-- webkit layer -->
-    <remote name="webkit" fetch="git@github.com:Igalia" />
-    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit.git" revision="dunfell" />
-
     <!-- raspberrypi bsp layer -->
     <remote name="raspberrypi" fetch="git://git.yoctoproject.org/" />
     <project remote="raspberrypi" path="sources/meta-raspberrypi" name="meta-raspberrypi" revision="dunfell" />
 
+    <!-- webkit layer -->
+    <remote name="webkit" fetch="https://github.com/Igalia/" />
+    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit" revision="dunfell" />
 
 
     
