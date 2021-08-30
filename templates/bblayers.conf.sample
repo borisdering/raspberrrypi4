@@ -6,9 +6,9 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-  /home/borisdering/playground/raspberry_pi_build/sources/poky/meta \
-  /home/borisdering/playground/raspberry_pi_build/sources/poky/meta-poky \
-  /home/borisdering/playground/raspberry_pi_build/sources/poky/meta-yocto-bsp \
-  /home/borisdering/playground/raspberry_pi_build/sources/meta-raspberrypi \
-  /home/borisdering/playground/raspberry_pi_build/sources/meta-webkit \
-  /home/borisdering/playground/raspberry_pi_build/sources/meta-openembedded/meta-oe \
+  ${BSPDIR}/sources/poky/meta \
+  ${BSPDIR}/sources/poky/meta-poky \
+  ${BSPDIR}/sources/poky/meta-yocto-bsp \
+  ${BSPDIR}/sources/meta-raspberrypi \
+  ${BSPDIR}/sources/meta-webkit \
+  ${BSPDIR}/sources/meta-openembedded/meta-oe \
