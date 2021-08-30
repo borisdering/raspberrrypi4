@@ -2,8 +2,6 @@
 <manifest>
     <default sync-j="2" />
 
-    <remote name="origin" fetch="git@github.com:borisdering/raspberrypi4.git" />
-
     <!-- poky layer -->
     <remote name="poky" fetch="git://git.yoctoproject.org/" />
     <project remote="poky" path="sources/poky" name="poky.git" revision="dunfell" />
@@ -12,11 +10,15 @@
     <remote name="raspberrypi" fetch="git://git.yoctoproject.org/" />
     <project remote="raspberrypi" path="sources/meta-raspberrypi" name="meta-raspberrypi" revision="dunfell" />
 
+    <!-- openembedded layer -->
+    <remote name="openembedded" fetch="git://git.openembedded.org/" />
+    <project remote="openembedded" path="sources/meta-openembedded" name="meta-openembedded" revision="dunfell" />
+
     <!-- webkit layer -->
+    <!-- using https instead of git because it caused issues with repo for some unknown reason -->
     <remote name="webkit" fetch="https://github.com/Igalia/" />
     <project remote="webkit" path="sources/meta-webkit" name="meta-webkit" revision="dunfell" />
 
-
-    
-
+    <remote name="origin" fetch="git@github.com:borisdering/raspberrypi4.git" />
+    <project remote="origin" path="." name="raspberrypi4.git" revision="master" />
 </manifest>

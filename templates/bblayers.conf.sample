@@ -1,0 +1,14 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /home/borisdering/playground/raspberry_pi_build/sources/poky/meta \
+  /home/borisdering/playground/raspberry_pi_build/sources/poky/meta-poky \
+  /home/borisdering/playground/raspberry_pi_build/sources/poky/meta-yocto-bsp \
+  /home/borisdering/playground/raspberry_pi_build/sources/meta-raspberrypi \
+  /home/borisdering/playground/raspberry_pi_build/sources/meta-webkit \
+  /home/borisdering/playground/raspberry_pi_build/sources/meta-openembedded/meta-oe \

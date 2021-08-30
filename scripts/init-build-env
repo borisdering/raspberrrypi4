@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CWD=`pwd`
+BUILD_DIR=.
+
+. ./source/poky/oe
+
+if [ -f $BUILD_DIR/build/conf/local.conf ]; then
+    
+fi
+#. ./source/poky/oe
