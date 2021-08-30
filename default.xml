@@ -21,7 +21,7 @@
 
     <!-- custom layer -->
     <remote name="origin" fetch="https://github.com/borisdering/" />
-    <project remote="origin" path="." name="meta-playground.git" revision="master" />
+    <project remote="origin" path="meta-playground" name="meta-playground.git" revision="master" />
 
     <!-- this repo, used for the scripts and templates -->
     <project remote="origin" path="." name="raspberrypi4.git" revision="master" />
