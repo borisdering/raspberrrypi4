@@ -24,6 +24,5 @@
     <project remote="origin" path="." name="meta-playground.git" revision="master" />
 
     <!-- this repo, used for the scripts and templates -->
-    <remote name="origin" fetch="https://github.com/borisdering/" />
     <project remote="origin" path="." name="raspberrypi4.git" revision="master" />
 </manifest>
