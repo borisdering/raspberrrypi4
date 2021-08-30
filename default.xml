@@ -12,7 +12,7 @@
 
     <!-- raspberrypi bsp project -->
     <remote name="webkit" fetch="git@github.com:Igalia/" />
-    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit" revision="dunfell" />
+    <project remote="webkit" path="sources/meta-webkit" name="meta-webkit.git" revision="dunfell" />
 
     
 
